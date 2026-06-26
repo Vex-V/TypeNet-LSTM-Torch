@@ -1,0 +1,16 @@
+{
+  "lstm_weights": "models/typenet_triplet_M50.pt",
+  "data": "data/processed_smoke",
+  "M": 50,
+  "log_dir": "logs/smoke_ensemble",
+  "seed": 42,
+  "skip_phase1": false,
+  "phase1_epochs": 2,
+  "phase2_epochs": 3,
+  "lr": 0.001,
+  "batch_size": 32,
+  "batches_per_epoch": 3,
+  "phase3": false,
+  "phase3_epochs": 50,
+  "resume_ensemble": null
+}

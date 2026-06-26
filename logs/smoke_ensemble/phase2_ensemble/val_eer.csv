@@ -1,0 +1,2 @@
+epoch,val_eer,eer_lstm,eer_cnn,eer_transformer
+1,10.5099,5.6579,15.5866,32.3465
