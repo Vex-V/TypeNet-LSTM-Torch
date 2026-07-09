@@ -1,0 +1,8 @@
+Branch_combination,EER_pct,Delta_vs_best,Fusion_type
+All three branches (Ensemble),2.35,—,Trained fusion head
+CNN + Transformer,2.88,+0.53,Lightweight fusion
+LSTM + CNN,3.98,+1.63,Lightweight fusion
+LSTM only,4.11,+1.76,Standalone
+LSTM + Transformer,4.47,+2.12,Lightweight fusion
+CNN only,4.67,+2.32,Standalone
+Transformer only,5.31,+2.96,Standalone

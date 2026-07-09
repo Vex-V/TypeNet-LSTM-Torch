@@ -1,8 +1,8 @@
 branch_combo,eer,std
-lstm,4.30,6.25
-cnn,4.86,6.80
-transformer,5.73,7.94
-lstm+cnn,4.47,6.64
-lstm+transformer,4.79,7.19
-cnn+transformer,3.04,5.53
-all (ensemble),2.59,4.95
+lstm,4.11,6.20
+cnn,4.67,6.73
+transformer,5.31,8.11
+lstm+cnn,3.98,6.19
+lstm+transformer,4.47,7.44
+cnn+transformer,2.88,5.39
+all (ensemble),2.35,4.35

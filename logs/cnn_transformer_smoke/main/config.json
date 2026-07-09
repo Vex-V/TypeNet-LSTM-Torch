@@ -1,0 +1,20 @@
+{
+  "ensemble_weights": "logs/checkpoints/best_ensemble.pt",
+  "no_warmstart": false,
+  "resume": null,
+  "data": "data/processed",
+  "M": 50,
+  "log_dir": "logs/cnn_transformer_smoke",
+  "seed": 42,
+  "epochs": 2,
+  "lr": 0.001,
+  "batch_size": 64,
+  "batches_per_epoch": 3,
+  "finetune": false,
+  "finetune_epochs": 50,
+  "finetune_lr": 0.0002,
+  "eval": false,
+  "eval_k": 1000,
+  "eval_G": 5,
+  "eval_only": null
+}

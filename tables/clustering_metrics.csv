@@ -1,0 +1,4 @@
+Branch,N_subjects,N_points,Embedding_dim,Silhouette,Davies_Bouldin,Calinski_Harabasz,Silhouette_direction,DB_direction,CH_direction
+CNN Branch,50,750,128,0.1103,1.8988,73.0,higher_better,lower_better,higher_better
+Transformer Branch,50,750,128,0.1096,1.9274,77.4,higher_better,lower_better,higher_better
+Fused (CNN+Transformer),50,750,128,0.1884,1.5444,58.7,higher_better,lower_better,higher_better

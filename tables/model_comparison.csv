@@ -1,0 +1,6 @@
+Model,EER_pct,EER_std_pct,Params,File_size_MB,Peak_mem_MB_B128,Lat_B1_ms,Lat_B8_ms,Lat_B32_ms,Lat_B128_ms,Throughput_B128_sps,Notes
+CNN+Transformer,2.38,4.56,229184,0.95,—,~7*,—,—,—,—,Warm-started from Full Ensemble; * estimated
+Full Ensemble (CNN+LSTM+Trans),2.38,4.46,512960,2.09,35.4,12.0,13.8,16.0,15.8,8102,
+TypeNet LSTM,4.17,6.24,201472,0.81,24.5,4.24,8.28,8.54,7.93,16132,
+CNN Branch (standalone),4.41,6.6,103872,—,11.9,1.72,1.63,1.42,1.79,71623,
+Transformer Branch (standalone),5.42,8.58,75648,—,18.4,5.02,4.27,4.72,5.24,24450,

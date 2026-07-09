@@ -1,0 +1,5 @@
+model,device,total_params,trainable_params,file_size_mb,peak_memory_mb,weights_path
+TypeNet LSTM,cuda,201472,201472,0.811,24.538,models/typenet_triplet_M50_best.pt
+CNN Branch,cuda,103872,103872,2.089,11.907,logs/checkpoints/best_ensemble.pt
+Transformer Branch,cuda,75648,75648,2.089,18.399,logs/checkpoints/best_ensemble.pt
+Ensemble (full),cuda,512960,512960,2.089,35.370,logs/checkpoints/best_ensemble.pt

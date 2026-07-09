@@ -1,0 +1,4 @@
+model,eer,std,G,k
+cnn+transformer (fused),2.38,4.56,5,1000
+cnn only,4.41,6.60,5,1000
+transformer only,5.42,8.58,5,1000
